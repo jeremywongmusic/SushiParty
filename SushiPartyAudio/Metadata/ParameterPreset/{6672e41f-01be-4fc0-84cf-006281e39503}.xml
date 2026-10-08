@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{6672e41f-01be-4fc0-84cf-006281e39503}">
+		<property name="name">
+			<value>BoardProgress</value>
+		</property>
+		<relationship name="folder">
+			<destination>{227f9b1a-0696-47f2-9eee-d80f2a63b0d9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{05dd92d5-0396-4818-a83b-fd85294c9623}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{05dd92d5-0396-4818-a83b-fd85294c9623}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,22 @@
+# FMOD Studio.
+#
+# What must be committed: SushiPartyAudio.fspro, Metadata/ and Assets/ (the source
+# audio files). Metadata/ is the project's whole object graph — never ignore parts
+# of it, or Studio opens with dangling references.
+
+# Local working state
+.cache/
+.unsaved/
+.user/
+
+# --- Built banks ----------------------------------------------------------------
+# Regenerate with File > Build in Studio.
+#
+# The Unity project reads these through `sourceProjectPath`/`sourceBankPath` in
+# FMODStudioSettings, so a fresh clone has no audio until someone opens Studio and
+# builds once. That is the usual trade: banks are binary, rewritten whole on every
+# build, and will grow a lot once real audio replaces the placeholder beeps.
+#
+# If you would rather a clone just work, delete the line below. Consider Git LFS at
+# the same time — `git lfs track "*.bank"`.
+/Build/

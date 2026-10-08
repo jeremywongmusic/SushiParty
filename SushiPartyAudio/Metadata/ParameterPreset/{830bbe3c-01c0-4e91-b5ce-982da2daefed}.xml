@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{830bbe3c-01c0-4e91-b5ce-982da2daefed}">
+		<property name="name">
+			<value>TimeRemaining</value>
+		</property>
+		<relationship name="folder">
+			<destination>{227f9b1a-0696-47f2-9eee-d80f2a63b0d9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b6c95521-7ea8-4cb9-87c1-4ee41b0f82cf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b6c95521-7ea8-4cb9-87c1-4ee41b0f82cf}">
+		<property name="maximum">
+			<value>90</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

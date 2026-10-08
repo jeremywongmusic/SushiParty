@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{1cb1e2fd-e286-42bb-b602-306beb096b5e}">
+		<property name="name">
+			<value>PlayerMotion</value>
+		</property>
+		<relationship name="folder">
+			<destination>{227f9b1a-0696-47f2-9eee-d80f2a63b0d9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{64ba1d10-dcfa-4fad-b2ee-87693d2dc2b0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{64ba1d10-dcfa-4fad-b2ee-87693d2dc2b0}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

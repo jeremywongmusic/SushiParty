@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{5a38abfa-4ec8-4ed7-a54c-de579aa3bd13}">
+		<property name="name">
+			<value>ChefMotion</value>
+		</property>
+		<relationship name="folder">
+			<destination>{227f9b1a-0696-47f2-9eee-d80f2a63b0d9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0a6f3a31-9634-4724-b360-665a8d0069df}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0a6f3a31-9634-4724-b360-665a8d0069df}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

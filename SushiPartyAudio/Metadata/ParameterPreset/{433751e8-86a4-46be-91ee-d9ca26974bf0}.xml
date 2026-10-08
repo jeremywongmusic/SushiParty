@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{433751e8-86a4-46be-91ee-d9ca26974bf0}">
+		<property name="name">
+			<value>BoardRound</value>
+		</property>
+		<relationship name="folder">
+			<destination>{227f9b1a-0696-47f2-9eee-d80f2a63b0d9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2331639e-e962-406a-8b73-a7c921e559aa}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2331639e-e962-406a-8b73-a7c921e559aa}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>10</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,19 @@
+{
+    "name": "SushiParty.Prototype.ShaderLook",
+    "rootNamespace": "SushiParty.Prototypes.ShaderLook",
+    "references": [
+        "SushiParty.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

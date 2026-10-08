@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{6cbecabe-1e88-4d80-b920-0d4ede427512}">
+		<property name="name">
+			<value>HumanCount</value>
+		</property>
+		<relationship name="folder">
+			<destination>{227f9b1a-0696-47f2-9eee-d80f2a63b0d9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{01cd894f-c85b-4338-8696-557a9830bc09}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{01cd894f-c85b-4338-8696-557a9830bc09}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

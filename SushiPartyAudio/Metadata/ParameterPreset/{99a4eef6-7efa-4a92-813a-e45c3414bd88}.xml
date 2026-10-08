@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{99a4eef6-7efa-4a92-813a-e45c3414bd88}">
+		<property name="name">
+			<value>CoinSwing</value>
+		</property>
+		<relationship name="folder">
+			<destination>{227f9b1a-0696-47f2-9eee-d80f2a63b0d9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3d632205-89a6-4df8-b84a-a1b25032e106}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3d632205-89a6-4df8-b84a-a1b25032e106}">
+		<property name="minimum">
+			<value>-30</value>
+		</property>
+		<property name="maximum">
+			<value>30</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

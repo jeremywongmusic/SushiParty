@@ -1,0 +1,19 @@
+{
+    "name": "SushiParty.Runtime",
+    "rootNamespace": "SushiParty",
+    "references": [
+        "Unity.InputSystem",
+        "UnityEngine.UI",
+        "FMODUnity",
+        "Unity.Cinemachine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

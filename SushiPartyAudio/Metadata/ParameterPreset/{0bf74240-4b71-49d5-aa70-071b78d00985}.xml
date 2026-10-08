@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{0bf74240-4b71-49d5-aa70-071b78d00985}">
+		<property name="name">
+			<value>RoundProgress</value>
+		</property>
+		<relationship name="folder">
+			<destination>{227f9b1a-0696-47f2-9eee-d80f2a63b0d9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2a1ff483-0ee1-465c-95a0-67e182020e39}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2a1ff483-0ee1-465c-95a0-67e182020e39}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+	</object>
+</objects>
