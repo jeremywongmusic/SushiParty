@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{93bcb145-5b19-46d2-8dcf-ee1a116b113a}">
+	<object class="AudioFile" id="{6719a260-78b5-4a51-a66f-32df4e3a2ab8}">
 		<property name="assetPath">
-			<value>AUDIO/SFX/UI/Menu_Move_V.3.wav</value>
+			<value>AUDIO/SFX/BOARD/Dice_Roll/Dice_Roll_V.1_SAX_LONG.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>2.3527083333333332</value>
+			<value>7.5062499999999996</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{1f1725dd-3f61-404e-95b8-3a61c2a49300}</destination>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{68aa2cdb-67e5-4c0b-b684-f6f98ed47ca4}">
+	<object class="AudioFile" id="{d4dd812d-8287-4b57-b342-f9c2d518ec43}">
 		<property name="assetPath">
-			<value>AUDIO/SFX/UI/Menu_Move_V.2.wav</value>
+			<value>AUDIO/SFX/UI/Title_Move_V.1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

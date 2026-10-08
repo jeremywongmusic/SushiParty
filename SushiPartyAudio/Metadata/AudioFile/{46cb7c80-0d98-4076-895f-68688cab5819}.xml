@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{aa71884a-fae8-47ca-8507-37108daa8b53}">
+	<object class="AudioFile" id="{46cb7c80-0d98-4076-895f-68688cab5819}">
 		<property name="assetPath">
-			<value>AUDIO/SFX/UI/01-UI_Button_Out-261008_1754-002.wav</value>
+			<value>AUDIO/SFX/UI/UI_Button_Out_V.1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
