@@ -59,7 +59,11 @@
 			<destination>{bf588d14-be61-4a9d-9824-e90f3882e3eb}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{207f4020-14f2-47ae-a2b7-39d8fa2185f1}" />
+	<object class="EventAutomatableProperties" id="{207f4020-14f2-47ae-a2b7-39d8fa2185f1}">
+		<property name="triggerCooldown">
+			<value>4000</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{7904f2ff-f3a5-4d3f-a47a-cdc8c6ed5ee1}" />
 	<object class="GroupTrack" id="{b623848b-8576-4ee3-beae-5ef6a85c0293}">
 		<relationship name="modules">
@@ -73,7 +77,6 @@
 	</object>
 	<object class="GroupTrack" id="{df0938b7-9dc1-423d-b7b3-8b84bb7d7075}">
 		<relationship name="modules">
-			<destination>{2479ffd4-33f6-4015-ab79-8ad43e99679f}</destination>
 			<destination>{15b48c42-55b6-4377-a539-419ef6ad982a}</destination>
 			<destination>{eebaee7c-98af-486d-b47a-878809ed8321}</destination>
 		</relationship>
@@ -101,7 +104,6 @@
 	<object class="Timeline" id="{476d94a1-5493-40eb-845a-84afebd1bb67}">
 		<relationship name="modules">
 			<destination>{1569041d-f125-4497-a390-de131c83d02e}</destination>
-			<destination>{2479ffd4-33f6-4015-ab79-8ad43e99679f}</destination>
 			<destination>{15b48c42-55b6-4377-a539-419ef6ad982a}</destination>
 			<destination>{eebaee7c-98af-486d-b47a-878809ed8321}</destination>
 			<destination>{172dea54-aba4-43e4-b1c5-d7044684793e}</destination>
@@ -188,17 +190,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{bff50ee9-fe94-435c-9a9b-32e7cbb0f554}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{2479ffd4-33f6-4015-ab79-8ad43e99679f}">
-		<property name="length">
-			<value>4.5</value>
-		</property>
-		<property name="volume">
-			<value>5</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{6719a260-78b5-4a51-a66f-32df4e3a2ab8}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{15b48c42-55b6-4377-a539-419ef6ad982a}">
@@ -308,7 +299,7 @@
 			<value>4.5</value>
 		</property>
 		<property name="length">
-			<value>5.5062499999999996</value>
+			<value>5.5062500000000032</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{1acba3cb-bb0b-4b19-b7a0-21a7b0d26866}</destination>
