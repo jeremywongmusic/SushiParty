@@ -148,6 +148,9 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{46f2ee02-75cd-430e-a514-6d300e2988c0}">
+		<property name="start">
+			<value>0.03125</value>
+		</property>
 		<property name="length">
 			<value>0.66112499999999996</value>
 		</property>
