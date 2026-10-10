@@ -396,7 +396,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{d21af16c-7236-4c23-ba66-93ea75ddf037}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-10.5</value>
 		</property>
 		<property name="name">
 			<value>Piano</value>
@@ -427,7 +427,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{4781bd1d-8bcd-4656-b891-f3a655d0e022}">
 		<relationship name="effects">
-			<destination>{d6660edc-a839-482b-856c-4472b886b751}</destination>
+			<destination>{568663c2-bf29-4ba9-a52c-a5688267104c}</destination>
 			<destination>{c8794661-2688-4f0c-82ee-c6787ee681f5}</destination>
 		</relationship>
 	</object>
@@ -557,10 +557,13 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1a1d9647-bd5f-4821-ae78-4d1f8bdd3736}" />
-	<object class="SFXReverbEffect" id="{d6660edc-a839-482b-856c-4472b886b751}">
-		<property name="wetLevel">
-			<value>-17.5</value>
+	<object class="ProxyEffect" id="{568663c2-bf29-4ba9-a52c-a5688267104c}">
+		<property name="inputFormat">
+			<value>1</value>
 		</property>
+		<relationship name="preset">
+			<destination>{39b1e2cc-808a-4791-804a-01a6f70ac7d0}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c8794661-2688-4f0c-82ee-c6787ee681f5}" />
 	<object class="AutomationPoint" id="{a3dfc236-f8b7-469f-8d42-7b953d2a9836}">

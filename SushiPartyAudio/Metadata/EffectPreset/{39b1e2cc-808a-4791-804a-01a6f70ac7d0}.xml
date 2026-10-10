@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="EffectPreset" id="{39b1e2cc-808a-4791-804a-01a6f70ac7d0}">
 		<property name="name">
-			<value>Effect Chain</value>
+			<value>Board Reverb</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ec67dcd2-a1d4-4461-9775-1269523f6c47}</destination>
@@ -11,5 +11,14 @@
 			<destination>{56df4503-e0ca-439c-9d19-2191ff03de32}</destination>
 		</relationship>
 	</object>
-	<object class="EffectChain" id="{56df4503-e0ca-439c-9d19-2191ff03de32}" />
+	<object class="EffectChain" id="{56df4503-e0ca-439c-9d19-2191ff03de32}">
+		<relationship name="effects">
+			<destination>{8b0be63f-4885-461b-9e8c-1f94c509d773}</destination>
+		</relationship>
+	</object>
+	<object class="SFXReverbEffect" id="{8b0be63f-4885-461b-9e8c-1f94c509d773}">
+		<property name="wetLevel">
+			<value>-21.5</value>
+		</property>
+	</object>
 </objects>
