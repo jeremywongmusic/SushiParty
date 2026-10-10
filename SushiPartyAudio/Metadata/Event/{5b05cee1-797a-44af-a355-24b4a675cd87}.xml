@@ -158,7 +158,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{15dbfd08-f637-4705-9295-13563b9a3494}">
 		<property name="volume">
-			<value>-4</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Door Bell</value>
@@ -186,7 +186,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f21108cb-5ad2-43e9-82c8-1fb33da8bd7a}">
 		<property name="volume">
-			<value>2</value>
+			<value>5.5</value>
 		</property>
 		<property name="name">
 			<value>DoorOpen</value>
