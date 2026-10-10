@@ -7,6 +7,8 @@ namespace SushiParty.Board
     public sealed class BoardDiceBlock
     {
         private const float BlockSize = 0.80f;
+
+        private AudioHandle DieRoll;
         private const float BevelRadius = 0.10f;
         private const float PipDiameter = 0.15f;
         private const float PipSpacing = 0.20f;
@@ -167,6 +169,8 @@ namespace SushiParty.Board
 
             Flip();
 
+            DieRoll = GameAudio.Loop(Sfx.BoardDieRoll);
+
             GameAudio.PlayAt(Sfx.BoardDieRoll, root.position);
         }
 
@@ -177,6 +181,7 @@ namespace SushiParty.Board
             if (beat == Beat.Cycling || beat == Beat.Waiting)
             {
                 Land(face);
+                GameAudio.Stop(ref DieRoll);
             }
 
             return face;
