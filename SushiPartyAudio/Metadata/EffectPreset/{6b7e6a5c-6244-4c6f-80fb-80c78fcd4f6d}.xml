@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPreset" id="{6b7e6a5c-6244-4c6f-80fb-80c78fcd4f6d}">
+		<property name="name">
+			<value>Megaphone</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ec67dcd2-a1d4-4461-9775-1269523f6c47}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{f8c9f40b-bd68-48f1-91d7-23721ec75621}</destination>
+		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{f8c9f40b-bd68-48f1-91d7-23721ec75621}">
+		<property name="filterTypeB">
+			<value>4</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="filterTypeD">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>2498.10815</value>
+		</property>
+		<property name="frequencyB">
+			<value>387.055267</value>
+		</property>
+		<property name="frequencyC">
+			<value>456.834198</value>
+		</property>
+		<property name="frequencyD">
+			<value>1650.62024</value>
+		</property>
+		<property name="qualityA">
+			<value>0.528780103</value>
+		</property>
+		<property name="qualityB">
+			<value>0.528780103</value>
+		</property>
+		<property name="qualityC">
+			<value>1.94116366</value>
+		</property>
+		<property name="gainC">
+			<value>10.7583981</value>
+		</property>
+		<property name="gainD">
+			<value>8.15817833</value>
+		</property>
+	</object>
+</objects>
