@@ -90,6 +90,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2764227b-3809-4324-87c9-bed86274ab62}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{d5e4168f-a2fb-434c-b75f-cfb49cb65acc}</destination>
 		</relationship>
@@ -132,9 +135,6 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{74437806-60ea-4020-9a48-6d9aaeab3a1c}">
-		<property name="start">
-			<value>0.0058541666666666664</value>
-		</property>
 		<property name="length">
 			<value>1.3691458333333333</value>
 		</property>
@@ -152,6 +152,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{901f3d0b-0242-4053-8395-084aa0e74416}">
+		<property name="volume">
+			<value>-9.5</value>
+		</property>
 		<property name="name">
 			<value>ServiceBell</value>
 		</property>

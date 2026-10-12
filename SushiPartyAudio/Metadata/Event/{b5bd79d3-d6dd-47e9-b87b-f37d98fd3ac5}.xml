@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2e81e756-65e2-436c-abc1-a256056c19da}">
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{832825c7-76e4-484c-8aba-e826a48826dd}</destination>
 		</relationship>
@@ -92,6 +95,9 @@
 		<property name="length">
 			<value>0.875</value>
 		</property>
+		<property name="pitch">
+			<value>7</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{73c53f1d-ba7c-4f92-a819-67e9cafd5396}</destination>
 		</relationship>
@@ -106,7 +112,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c8684a2f-be6b-4cce-b7a9-6278a5d59b57}">
 		<property name="volume">
-			<value>3.5</value>
+			<value>6.5</value>
 		</property>
 		<property name="name">
 			<value>Voices</value>
@@ -124,7 +130,6 @@
 	<object class="MixerBusEffectChain" id="{832825c7-76e4-484c-8aba-e826a48826dd}">
 		<relationship name="effects">
 			<destination>{1b585d4f-2337-497e-8f93-af1bab2d4ef0}</destination>
-			<destination>{94a41805-6ddc-41c7-b049-1224ef535642}</destination>
 			<destination>{afbc2098-20af-4ee3-bd0e-80067ca0e0d8}</destination>
 			<destination>{d6e70720-9494-49ce-a81f-ea22ccc358c7}</destination>
 		</relationship>
@@ -200,11 +205,6 @@
 		<relationship name="preset">
 			<destination>{39b1e2cc-808a-4791-804a-01a6f70ac7d0}</destination>
 		</relationship>
-	</object>
-	<object class="PitchShifterEffect" id="{94a41805-6ddc-41c7-b049-1224ef535642}">
-		<property name="pitch">
-			<value>1.61000001</value>
-		</property>
 	</object>
 	<object class="GainEffect" id="{afbc2098-20af-4ee3-bd0e-80067ca0e0d8}">
 		<property name="gain">

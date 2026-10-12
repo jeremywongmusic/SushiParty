@@ -114,6 +114,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e2be6407-62ee-4ba1-b3a0-ea81fe6e37a6}">
+		<property name="volume">
+			<value>6.5</value>
+		</property>
 		<property name="name">
 			<value>Knife Swing</value>
 		</property>
@@ -169,7 +172,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>2.5</value>
+			<value>8</value>
 		</property>
 	</object>
 	<object class="FadeCurve" id="{a2f49d5e-d003-4564-849f-b9785a08d1bf}">
@@ -192,6 +195,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{8ca53d41-1ed9-4621-88ac-0e4c7960d700}">
 		<relationship name="effects">
+			<destination>{29d7a1b0-e257-48b5-8ba2-0f8068eb8fc5}</destination>
 			<destination>{96376bca-47b7-4cda-a31f-22655b2f38ab}</destination>
 		</relationship>
 	</object>
@@ -250,6 +254,11 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{29d7a1b0-e257-48b5-8ba2-0f8068eb8fc5}">
+		<property name="highGain">
+			<value>6.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{96376bca-47b7-4cda-a31f-22655b2f38ab}" />

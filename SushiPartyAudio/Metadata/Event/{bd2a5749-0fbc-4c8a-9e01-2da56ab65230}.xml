@@ -90,6 +90,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d54b6839-e66c-47fc-90a5-f814001d697d}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{608a1c96-5597-424d-87e5-42c8c2aa9573}</destination>
 		</relationship>
@@ -125,7 +128,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a240c8e2-9088-4eda-9b53-eb071d059d05}">
 		<property name="volume">
-			<value>10</value>
+			<value>4.5</value>
 		</property>
 		<property name="name">
 			<value>CoinLoss</value>
@@ -147,6 +150,9 @@
 		<property name="length">
 			<value>1.71875</value>
 		</property>
+		<property name="volume">
+			<value>6</value>
+		</property>
 		<property name="pitch">
 			<value>7</value>
 		</property>
@@ -161,7 +167,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c227d03a-6e82-4952-a348-2185da5890de}">
 		<property name="volume">
-			<value>3.5</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>CoinLossVoice</value>
@@ -225,6 +231,9 @@
 	<object class="SingleSound" id="{8a2ac462-b9cd-4575-9cce-577709efe938}">
 		<property name="startOffset">
 			<value>20</value>
+		</property>
+		<property name="volume">
+			<value>-10</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{6b016388-0a88-4913-9971-6432653914d3}</destination>

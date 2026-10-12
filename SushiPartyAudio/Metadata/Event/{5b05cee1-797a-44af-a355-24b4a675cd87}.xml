@@ -96,7 +96,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{5977b3f1-aa32-4ec3-93ac-6b827f129a5d}">
 		<property name="volume">
-			<value>-7.5</value>
+			<value>-8</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{76c41538-60d0-46be-ab1e-5da01dec4eed}</destination>
@@ -157,9 +157,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{15dbfd08-f637-4705-9295-13563b9a3494}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<property name="name">
 			<value>Door Bell</value>
 		</property>
@@ -186,7 +183,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f21108cb-5ad2-43e9-82c8-1fb33da8bd7a}">
 		<property name="volume">
-			<value>5.5</value>
+			<value>3</value>
 		</property>
 		<property name="name">
 			<value>DoorOpen</value>
