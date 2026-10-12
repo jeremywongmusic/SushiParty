@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{31f8812f-4cdb-4c1d-965c-9ef4d5a2c4cc}">
+		<property name="assetPath">
+			<value>AUDIO/MUSIC/MiniGames/ZoomRoom/ZoomRoomMusic.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>55.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f1725dd-3f61-404e-95b8-3a61c2a49300}</destination>
+		</relationship>
+	</object>
+</objects>
