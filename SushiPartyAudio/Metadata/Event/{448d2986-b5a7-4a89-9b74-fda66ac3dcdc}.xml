@@ -1072,7 +1072,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ffaa12f9-2212-4471-aaca-263dcb57f535}">
 		<property name="volume">
-			<value>10</value>
+			<value>6.5</value>
 		</property>
 		<property name="name">
 			<value>ChefTacoVocals</value>
@@ -2770,7 +2770,7 @@
 			<value>16.500020833333334</value>
 		</property>
 		<property name="value">
-			<value>-8.5</value>
+			<value>-3</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f1e054f4-7a27-445d-bca1-515776610630}">
@@ -2778,7 +2778,7 @@
 			<value>16.5</value>
 		</property>
 		<property name="value">
-			<value>-13.5</value>
+			<value>-8</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.109711386</value>
@@ -2789,7 +2789,7 @@
 			<value>32.5</value>
 		</property>
 		<property name="value">
-			<value>-7.5</value>
+			<value>-2</value>
 		</property>
 		<property name="curveShape">
 			<value>0.132367894</value>
@@ -2800,7 +2800,7 @@
 			<value>32.875</value>
 		</property>
 		<property name="value">
-			<value>-13.5</value>
+			<value>-8</value>
 		</property>
 	</object>
 </objects>
