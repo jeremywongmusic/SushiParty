@@ -144,9 +144,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{becb9149-dcf7-47c4-8ef9-5047beea706c}">
-		<property name="volume">
-			<value>1</value>
-		</property>
 		<property name="name">
 			<value>Cops</value>
 		</property>
@@ -186,7 +183,7 @@
 	<object class="MixerBusPanner" id="{dc448afb-71d0-4568-97d8-2d1d80a245cb}" />
 	<object class="SingleSound" id="{9a274648-9fdf-4821-9b8d-b5486f0d6259}">
 		<property name="volume">
-			<value>1.5</value>
+			<value>-5.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{47044f9d-d1f2-4046-a80c-8b22dd3d8e08}</destination>
@@ -194,7 +191,7 @@
 	</object>
 	<object class="SingleSound" id="{17d70bcd-03ce-4a0e-8185-6eb4b64141a2}">
 		<property name="volume">
-			<value>-2.5</value>
+			<value>-11</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{7d57aabd-4ccd-4a03-9c7c-911ae2334161}</destination>

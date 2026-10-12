@@ -22,19 +22,19 @@
 			<value>9</value>
 		</property>
 		<property name="frequencyA">
-			<value>2498.10815</value>
+			<value>735.727966</value>
 		</property>
 		<property name="frequencyB">
-			<value>387.055267</value>
+			<value>705.863708</value>
 		</property>
 		<property name="frequencyC">
-			<value>456.834198</value>
+			<value>429.303101</value>
 		</property>
 		<property name="frequencyD">
-			<value>1650.62024</value>
+			<value>1756.47424</value>
 		</property>
 		<property name="qualityA">
-			<value>0.528780103</value>
+			<value>0.676091015</value>
 		</property>
 		<property name="qualityB">
 			<value>0.528780103</value>
@@ -43,10 +43,10 @@
 			<value>1.94116366</value>
 		</property>
 		<property name="gainC">
-			<value>10.7583981</value>
+			<value>22.7193947</value>
 		</property>
 		<property name="gainD">
-			<value>8.15817833</value>
+			<value>30</value>
 		</property>
 	</object>
 </objects>
