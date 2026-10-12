@@ -102,6 +102,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e979d319-3a9d-4f46-9ee5-0b568415425e}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{4cabb410-0972-481c-8bde-cdbf87527433}</destination>
 		</relationship>
@@ -219,7 +222,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{97aac4af-4ef4-48af-a590-b703ec472a2d}">
 		<property name="volume">
-			<value>-4.5</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Audio 4</value>
@@ -238,6 +241,7 @@
 		<relationship name="effects">
 			<destination>{707a9a93-1fb2-40cb-a2d5-1c3cbe0b86aa}</destination>
 			<destination>{491948db-55fb-4d08-b6a6-088f66179b16}</destination>
+			<destination>{32227413-2de9-4c0a-bb12-adcb745fb5a2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{43f99983-c7b1-4c47-9009-9e1cf91f665f}" />
@@ -310,6 +314,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{491948db-55fb-4d08-b6a6-088f66179b16}" />
+	<object class="GainEffect" id="{32227413-2de9-4c0a-bb12-adcb745fb5a2}">
+		<property name="gain">
+			<value>5.5</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{9c30f123-e006-48c0-ae43-8c03632d6870}">
 		<property name="position">
 			<value>4.6875</value>

@@ -316,7 +316,7 @@
 	</object>
 	<object class="GainEffect" id="{3510f5f1-4315-49ce-92ac-786dac45c00d}">
 		<property name="gain">
-			<value>7</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{36aa6d17-d6b4-4c83-a194-f1dd6770e739}">
