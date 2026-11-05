@@ -5,7 +5,7 @@
 			<value>ChefRespawn</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9b353298-7793-41c7-97c8-a536fa6eb1b5}</destination>
@@ -59,12 +59,22 @@
 	<object class="EventAutomatableProperties" id="{e453e7cb-b430-46dc-83b3-7478b9218d5c}" />
 	<object class="MarkerTrack" id="{2e4a180c-f58c-4c66-b7ae-734b0baad805}" />
 	<object class="GroupTrack" id="{b893ff63-ecae-411e-a9b9-06576a486da5}">
+		<relationship name="modules">
+			<destination>{bd731001-d7a3-4cc6-b9e9-67891a4b3aa5}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f8d0156f-e0ea-44e6-a93c-d77a564dc186}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{1b57932e-0771-4966-b8e2-6953bb51a31f}" />
+	<object class="Timeline" id="{1b57932e-0771-4966-b8e2-6953bb51a31f}">
+		<relationship name="modules">
+			<destination>{bd731001-d7a3-4cc6-b9e9-67891a4b3aa5}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{527928e9-dc32-4145-813d-db92349314e9}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{fe3fed55-31dc-4150-a822-429fd066ec90}</destination>
 		</relationship>
@@ -81,9 +91,25 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5645fcb0-7b2b-40db-b437-45f02c0468c6}" />
+	<object class="MultiSound" id="{bd731001-d7a3-4cc6-b9e9-67891a4b3aa5}">
+		<property name="length">
+			<value>4.2303541666666664</value>
+		</property>
+		<property name="pitch">
+			<value>2.20000005</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{2331701c-aa6f-4d3b-b493-7fa1a1accc1d}</destination>
+			<destination>{65cc5a2a-eb70-4511-b829-7212902dd8ee}</destination>
+			<destination>{ba28acdc-1cb1-4167-a9ce-ed1a2aeb644f}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{f8d0156f-e0ea-44e6-a93c-d77a564dc186}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
-			<value>Audio</value>
+			<value>ChefRespawn</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{815f54a4-173e-4c21-b987-b093ac79a589}</destination>
@@ -98,10 +124,26 @@
 	<object class="MixerBusEffectChain" id="{fe3fed55-31dc-4150-a822-429fd066ec90}">
 		<relationship name="effects">
 			<destination>{8549fed9-c33f-4e9e-a785-5d7d37223f3b}</destination>
+			<destination>{5f8c0c45-dc84-40ab-8eae-e4853a097531}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1230cc4b-c6df-43a1-b215-0e3bb6284684}" />
 	<object class="MixerBusFader" id="{58ccf839-16cf-44ac-a2fb-2b4a1d7c10f7}" />
+	<object class="SingleSound" id="{2331701c-aa6f-4d3b-b493-7fa1a1accc1d}">
+		<relationship name="audioFile">
+			<destination>{74aa3be7-3a9f-40b5-a47c-9aaed402bda5}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{65cc5a2a-eb70-4511-b829-7212902dd8ee}">
+		<relationship name="audioFile">
+			<destination>{13b1e468-a119-408f-81d7-da32476073f1}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{ba28acdc-1cb1-4167-a9ce-ed1a2aeb644f}">
+		<relationship name="audioFile">
+			<destination>{2e66c62d-e19b-41ab-a680-859fbe363ea5}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{815f54a4-173e-4c21-b987-b093ac79a589}">
 		<relationship name="effects">
 			<destination>{87f40a2f-b612-4fcc-a8bf-c516e1ed478a}</destination>
@@ -109,5 +151,10 @@
 	</object>
 	<object class="MixerBusPanner" id="{2914e594-88b3-4da3-8da8-e4bc8bd3bfbb}" />
 	<object class="MixerBusFader" id="{8549fed9-c33f-4e9e-a785-5d7d37223f3b}" />
+	<object class="SFXReverbEffect" id="{5f8c0c45-dc84-40ab-8eae-e4853a097531}">
+		<property name="wetLevel">
+			<value>-12</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{87f40a2f-b612-4fcc-a8bf-c516e1ed478a}" />
 </objects>

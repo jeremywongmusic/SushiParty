@@ -11,5 +11,14 @@
 			<destination>{56df4503-e0ca-439c-9d19-2191ff03de32}</destination>
 		</relationship>
 	</object>
-	<object class="EffectChain" id="{56df4503-e0ca-439c-9d19-2191ff03de32}" />
+	<object class="EffectChain" id="{56df4503-e0ca-439c-9d19-2191ff03de32}">
+		<relationship name="effects">
+			<destination>{786df2e3-3790-4c02-8cbd-e078ececff99}</destination>
+		</relationship>
+	</object>
+	<object class="SFXReverbEffect" id="{786df2e3-3790-4c02-8cbd-e078ececff99}">
+		<property name="wetLevel">
+			<value>-16</value>
+		</property>
+	</object>
 </objects>

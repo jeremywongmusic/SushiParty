@@ -69,7 +69,7 @@
 			<value>850</value>
 		</property>
 		<property name="triggerCooldown">
-			<value>300</value>
+			<value>500</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{80b42481-aaa0-4d96-a2fa-0dc6c712b10f}" />
@@ -150,7 +150,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{315b82b9-2f81-4f0a-aa32-7ed719b3c420}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-16.5</value>
 		</property>
 		<property name="name">
 			<value>Metal</value>
@@ -194,7 +194,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{eb48b64a-4e5b-4702-9fa2-20a865cb6f7d}">
 		<property name="volume">
-			<value>6.5</value>
+			<value>-6.5</value>
 		</property>
 		<property name="name">
 			<value>Voice</value>
@@ -310,7 +310,7 @@
 	</object>
 	<object class="SingleSound" id="{6c77e112-05c3-48db-8d52-b08e4c41afed}">
 		<property name="volume">
-			<value>10</value>
+			<value>1.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{36ab0be1-cf46-4f22-8948-806e678eb634}</destination>
@@ -372,11 +372,20 @@
 		<property name="filterTypeA">
 			<value>14</value>
 		</property>
+		<property name="filterTypeB">
+			<value>12</value>
+		</property>
 		<property name="frequencyA">
-			<value>663.324829</value>
+			<value>387.055267</value>
+		</property>
+		<property name="frequencyB">
+			<value>1988.98267</value>
 		</property>
 		<property name="qualityA">
 			<value>0.676091015</value>
+		</property>
+		<property name="qualityB">
+			<value>0.954953492</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e1942e5f-3bd8-4d3a-a314-be23cc5f5c80}" />
