@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{f7836a8b-602a-4a2f-bdd1-246d1c107d1d}">
+		<property name="assetPath">
+			<value>AUDIO/SFX/MiniGames/BumperSparks/BumperSparksImpact/MetalImpact2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.6107291666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f1725dd-3f61-404e-95b8-3a61c2a49300}</destination>
+		</relationship>
+	</object>
+</objects>

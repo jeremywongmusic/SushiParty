@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9e82ab60-f69d-44f4-895b-6b88ca663b3c}">
+		<property name="assetPath">
+			<value>AUDIO/MUSIC/MiniGames/BumperSparks/BumperSparksMusic.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>120.131125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f1725dd-3f61-404e-95b8-3a61c2a49300}</destination>
+		</relationship>
+	</object>
+</objects>

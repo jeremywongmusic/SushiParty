@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{0f2c450c-9f56-488d-8a79-bd3a63cd965e}">
+		<property name="assetPath">
+			<value>AUDIO/SFX/MiniGames/BumperSparks/BumperSparksMusicLoop/Screaming/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1f1725dd-3f61-404e-95b8-3a61c2a49300}</destination>
+		</relationship>
+	</object>
+</objects>

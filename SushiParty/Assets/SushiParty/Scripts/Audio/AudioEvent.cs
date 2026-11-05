@@ -139,6 +139,7 @@ namespace SushiParty.Audio
         public static readonly AudioEvent BumperChefRespawn = E("BumperSparks/ChefRespawn");
         public static readonly AudioEvent BumperStunRecover = E("BumperSparks/StunRecover");
         public static readonly AudioEvent BumperEngineLoop = E("BumperSparks/EngineLoop");
+        public static readonly AudioEvent BumperSparksMusicLoop = E("BumperSparks/BumperSparksMusicLoop");
         public static readonly AudioEvent SandPound = E("SandTrap/Pound");
         public static readonly AudioEvent SandPoundMissed = E("SandTrap/PoundMissed");
         public static readonly AudioEvent SandLineLit = E("SandTrap/LineLit");

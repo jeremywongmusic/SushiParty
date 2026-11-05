@@ -9,6 +9,8 @@ namespace SushiParty.Minigames.BumperSparks
 {
     public sealed class BumperSparksMinigame : MinigameController
     {
+
+        private AudioHandle BumperSparksMusicLoop;
         private const int HitsToWin = 3;
         private const float PlayerStunDuration = 1.1f;
         private const float ChefStunDuration = 0f;
@@ -225,10 +227,18 @@ namespace SushiParty.Minigames.BumperSparks
 
         protected override void OnBegin()
         {
+
+            GameAudio.StopAll();
+
+            BumperSparksMusicLoop = GameAudio.Loop(Sfx.BumperSparksMusicLoop);
+
             foreach (BumperActor actor in everyone)
             {
                 actor.Engine = GameAudio.LoopAt(Sfx.BumperEngineLoop, actor.WorldPosition);
             }
+
+            GameAudio.Loop(Sfx.BumperSparksMusicLoop);
+
         }
 
         protected override void OnConclude(MinigameOutcome result)
@@ -237,6 +247,10 @@ namespace SushiParty.Minigames.BumperSparks
             {
                 GameAudio.Stop(ref actor.Engine);
             }
+
+            GameAudio.Stop(ref BumperSparksMusicLoop);
+
+            Debug.Log("StopMusic");
 
             if (!result.Won)
             {
