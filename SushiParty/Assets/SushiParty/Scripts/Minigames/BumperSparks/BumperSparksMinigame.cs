@@ -230,14 +230,10 @@ namespace SushiParty.Minigames.BumperSparks
 
             GameAudio.StopAll();
 
-            BumperSparksMusicLoop = GameAudio.Loop(Sfx.BumperSparksMusicLoop);
-
             foreach (BumperActor actor in everyone)
             {
                 actor.Engine = GameAudio.LoopAt(Sfx.BumperEngineLoop, actor.WorldPosition);
             }
-
-            GameAudio.Loop(Sfx.BumperSparksMusicLoop);
 
         }
 
@@ -247,10 +243,6 @@ namespace SushiParty.Minigames.BumperSparks
             {
                 GameAudio.Stop(ref actor.Engine);
             }
-
-            GameAudio.Stop(ref BumperSparksMusicLoop);
-
-            Debug.Log("StopMusic");
 
             if (!result.Won)
             {

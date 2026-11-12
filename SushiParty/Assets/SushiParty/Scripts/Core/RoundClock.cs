@@ -165,7 +165,7 @@ namespace SushiParty.Core
         {
             phaseTimer += deltaTime;
 
-            if (phaseTimer < briefingAutoAdvance && !primaryPressed)
+            if (!primaryPressed)
             {
                 return Report(RoundEvent.None);
             }
