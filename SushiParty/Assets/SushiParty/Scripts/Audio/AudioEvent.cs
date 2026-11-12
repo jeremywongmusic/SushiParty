@@ -94,6 +94,7 @@ namespace SushiParty.Audio
         public const string KindParameter = "Kind";
         public const string ChoiceParameter = "Choice";
         public const string StateParameter = "State";
+        public const string MinigameMusicParameter = "MinigameMusicParameter";
         public static readonly AudioEvent MenuMove = E("UI/MenuMove");
         public static readonly AudioEvent MenuConfirm = E("UI/MenuConfirm");
         public static readonly AudioEvent MenuToggle = E("UI/MenuToggle");

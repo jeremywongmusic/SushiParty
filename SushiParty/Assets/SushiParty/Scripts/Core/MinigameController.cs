@@ -173,6 +173,7 @@ namespace SushiParty.Core
             {
                 Hud.ShowBanner(tick.CountdownValue.ToString(), Definition.Accent);
                 GameAudio.Play(Sfx.CountdownTick, Sfx.StepParameter, tick.CountdownValue);
+                GameAudio.SetParameter(roundMusic, Sfx.MinigameMusicParameter, 1f);
             }
 
             if (tick.Has(RoundEvent.GoShown))
