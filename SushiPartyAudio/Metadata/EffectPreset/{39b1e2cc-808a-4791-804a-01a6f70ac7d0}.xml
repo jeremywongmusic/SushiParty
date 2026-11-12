@@ -18,7 +18,7 @@
 	</object>
 	<object class="SFXReverbEffect" id="{786df2e3-3790-4c02-8cbd-e078ececff99}">
 		<property name="wetLevel">
-			<value>-16</value>
+			<value>-13.5</value>
 		</property>
 	</object>
 </objects>
