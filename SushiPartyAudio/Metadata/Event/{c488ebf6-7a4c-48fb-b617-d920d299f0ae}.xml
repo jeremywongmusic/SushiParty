@@ -59,7 +59,11 @@
 			<destination>{bf588d14-be61-4a9d-9824-e90f3882e3eb}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{f1e7e434-0cca-4ef1-931f-3e5c227da261}" />
+	<object class="EventAutomatableProperties" id="{f1e7e434-0cca-4ef1-931f-3e5c227da261}">
+		<property name="maximumDistance">
+			<value>10000</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{eebfa4c0-aefb-4f81-a478-04bc3e6a7c57}" />
 	<object class="GroupTrack" id="{93d14114-67de-4e58-a693-8947a81a08d8}">
 		<relationship name="automationTracks">
@@ -105,6 +109,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{dbed7105-cc29-40c5-ad63-685d27ba23df}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{ea7cca7e-d013-42a8-8a64-5f73b3736c74}</destination>
 		</relationship>
@@ -413,7 +420,6 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{b401499f-04ec-44fc-b377-d126c6ecd32e}</destination>
-			<destination>{4b443eba-74c2-495e-a4f4-b11f204c5364}</destination>
 			<destination>{321e2d08-ef9f-414a-a951-ff77c39f481b}</destination>
 		</relationship>
 	</object>
@@ -425,18 +431,7 @@
 			<value>16000</value>
 		</property>
 		<property name="curveShape">
-			<value>-1</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{4b443eba-74c2-495e-a4f4-b11f204c5364}">
-		<property name="position">
-			<value>0.65000000000000002</value>
-		</property>
-		<property name="value">
-			<value>320</value>
-		</property>
-		<property name="curveShape">
-			<value>-0.313315868</value>
+			<value>-0.0291476473</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{321e2d08-ef9f-414a-a951-ff77c39f481b}">
@@ -444,7 +439,7 @@
 			<value>0.92660666240564893</value>
 		</property>
 		<property name="value">
-			<value>100</value>
+			<value>260</value>
 		</property>
 	</object>
 </objects>
