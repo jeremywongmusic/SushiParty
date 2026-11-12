@@ -240,6 +240,8 @@ namespace SushiParty.Minigames.BumperSparks
                 GameAudio.Stop(ref actor.Engine);
             }
 
+            GameAudio.StopAll();
+
             if (!result.Won)
             {
                 return;

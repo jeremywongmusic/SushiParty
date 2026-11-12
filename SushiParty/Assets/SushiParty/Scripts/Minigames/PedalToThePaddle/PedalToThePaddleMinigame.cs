@@ -276,11 +276,14 @@ namespace SushiParty.Minigames.PedalToThePaddle
         protected override void OnBegin()
         {
             wheelLoop = GameAudio.Loop(Sfx.PedalWheelLoop);
+            GameAudio.Loop(Sfx.PedalAmbience);
         }
 
         protected override void OnConclude(MinigameOutcome result)
         {
             GameAudio.Stop(ref wheelLoop);
+
+            GameAudio.StopAll();
 
             foreach (Rider rider in riders)
             {
