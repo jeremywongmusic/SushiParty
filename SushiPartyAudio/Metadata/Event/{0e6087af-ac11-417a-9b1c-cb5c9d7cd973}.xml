@@ -105,9 +105,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f8d0156f-e0ea-44e6-a93c-d77a564dc186}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<property name="name">
 			<value>ChefRespawn</value>
 		</property>
@@ -140,6 +137,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{ba28acdc-1cb1-4167-a9ce-ed1a2aeb644f}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{2e66c62d-e19b-41ab-a680-859fbe363ea5}</destination>
 		</relationship>
