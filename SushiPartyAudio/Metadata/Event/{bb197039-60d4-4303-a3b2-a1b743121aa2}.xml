@@ -103,13 +103,13 @@
 			<value>0.125</value>
 		</property>
 		<property name="length">
-			<value>2.8603603603603598</value>
+			<value>3.6416103603603602</value>
 		</property>
 		<property name="startOffset">
 			<value>89</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>6.2927927927927927</value>
+			<value>5.5115427927927927</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{6202564b-9b5c-40e0-b805-5bbcb5d1393a}</destination>
@@ -119,6 +119,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{99b2c0ca-51ff-44aa-9031-06fce9bb3d96}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<property name="name">
 			<value>BrassHit</value>
 		</property>
@@ -184,7 +187,7 @@
 	<object class="MixerBusFader" id="{87b74750-0916-4c7b-9af0-493072e01ae8}" />
 	<object class="AutomationPoint" id="{fdb7999b-5d94-4aec-997a-631cb10e8fb9}">
 		<property name="position">
-			<value>1.9853603603603605</value>
+			<value>2.7666103603603567</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -195,7 +198,7 @@
 	</object>
 	<object class="AutomationPoint" id="{2cb24eb1-63ee-485f-832e-62160f566050}">
 		<property name="position">
-			<value>2.9853603603603598</value>
+			<value>3.7666103603603549</value>
 		</property>
 		<property name="value">
 			<value>0</value>

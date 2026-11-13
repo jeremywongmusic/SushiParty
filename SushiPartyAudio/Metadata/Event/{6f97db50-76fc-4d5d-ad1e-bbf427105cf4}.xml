@@ -482,7 +482,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9a739529-6359-4799-89d9-bc296400e8df}">
 		<property name="volume">
-			<value>-12.5</value>
+			<value>-15</value>
 		</property>
 		<property name="name">
 			<value>Rain</value>
@@ -1038,7 +1038,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{cf734186-1ee2-48f3-a3bc-0ced2b1d55a4}" />
 	<object class="MixerBusFader" id="{9c58c768-cb7f-4615-9186-a07b900217cf}" />
-	<object class="SFXReverbEffect" id="{cd815fa1-e6cf-44f2-be05-82c1fa299fcd}" />
+	<object class="SFXReverbEffect" id="{cd815fa1-e6cf-44f2-be05-82c1fa299fcd}">
+		<property name="wetLevel">
+			<value>-10.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{66282ee9-891d-412c-8962-60b3f6621d83}" />
 	<object class="MixerBusFader" id="{a4efd5a1-5365-4fd3-b779-f6e53cbd2861}" />
 	<object class="MixerBusFader" id="{15b00c68-cba5-407f-901f-206490f387e5}" />

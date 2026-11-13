@@ -558,6 +558,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d7ed23a2-4966-429d-a995-b206e2f5bcdb}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<property name="name">
 			<value>CopsOneLiners</value>
 		</property>
@@ -1249,10 +1252,10 @@
 	</object>
 	<object class="SingleSound" id="{422ed51c-3c1b-42d3-bde8-5978c557bbc8}">
 		<property name="length">
-			<value>57.77927927927928</value>
+			<value>61.27927927927928</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>15.469584661816675</value>
+			<value>11.969584661816675</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{52877b17-918b-4df9-934f-3ef33a541537}</destination>
@@ -2747,7 +2750,7 @@
 	</object>
 	<object class="AutomationPoint" id="{8c7aff69-e053-4520-b0f4-a350e22b6db3}">
 		<property name="position">
-			<value>0.5</value>
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -2770,7 +2773,7 @@
 			<value>16.500020833333334</value>
 		</property>
 		<property name="value">
-			<value>-3</value>
+			<value>-0.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f1e054f4-7a27-445d-bca1-515776610630}">
@@ -2778,7 +2781,7 @@
 			<value>16.5</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>-5.5</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.109711386</value>
@@ -2789,7 +2792,7 @@
 			<value>32.5</value>
 		</property>
 		<property name="value">
-			<value>-2</value>
+			<value>0.5</value>
 		</property>
 		<property name="curveShape">
 			<value>0.132367894</value>
@@ -2800,7 +2803,7 @@
 			<value>32.875</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>-5.5</value>
 		</property>
 	</object>
 </objects>

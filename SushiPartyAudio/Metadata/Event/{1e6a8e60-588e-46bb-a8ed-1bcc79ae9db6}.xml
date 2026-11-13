@@ -5,7 +5,7 @@
 			<value>Catch</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3227832d-190a-45d7-8e2d-2019be752340}</destination>
@@ -163,7 +163,6 @@
 	<object class="MixerBusEffectChain" id="{e2af3dcc-3422-4bc0-9d13-6c5c9f1f8f11}">
 		<relationship name="effects">
 			<destination>{bd64e56a-b882-4f8a-89a1-a6017f3f5e4a}</destination>
-			<destination>{b8216e8f-2b47-410d-84cc-c2654660e91e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d2686b33-6127-4cfc-a3d1-a93eac9cb5b2}" />
@@ -208,11 +207,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{f69e15fe-bf01-499c-bc5f-22465f321878}" />
 	<object class="MixerBusFader" id="{bd64e56a-b882-4f8a-89a1-a6017f3f5e4a}" />
-	<object class="SpatialiserEffect" id="{b8216e8f-2b47-410d-84cc-c2654660e91e}">
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{a2fd0ed5-f388-4d5f-b46b-67b3b7e4c2f6}" />
 	<object class="ProxyEffect" id="{1b8e05a0-8e7e-4445-8684-7c090500dc4d}">
 		<property name="inputFormat">

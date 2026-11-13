@@ -204,6 +204,7 @@ namespace SushiParty.Minigames.ZoomRoom
                     chefAnimation.SetStunned(true);
 
                     GameAudio.PlayAt(Sfx.ZoomCatch, new Vector3(chefPosition.x, 0f, chefPosition.y));
+
                     Win("Cornered and caught");
                     return;
                 }
